@@ -3,3 +3,11 @@ npm install cypress --save-dev
 ./node_modules/.bin/cypress open
 #$(npm bin)/cypress open
 
+
+echo "# CypressJSModuurn" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rajeevmc77/CypressJSModuurn.git
+git push -u origin master
+
